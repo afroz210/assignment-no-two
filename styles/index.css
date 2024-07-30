@@ -1,0 +1,367 @@
+body{
+    /* margin: 0 auto;
+    max-width: 1060px; */
+    background-color: rgb(9, 8, 8);
+    color: aliceblue;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+/* common styles */
+.margin{
+    margin: 0 auto;
+    max-width: 1060px;
+}
+.margin-top{
+    margin-top: 100px;
+}
+.display-flex {
+    display: flex;
+}
+.color-orng {
+    background-color: rgb(230, 83, 60);
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+/* nav styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fitness {
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.list-box {
+    width: 465px;
+    height: 46px;
+    padding-left: 1.3rem;
+    border: 1px solid rgba(139, 138, 138, 0.1);
+    border-radius: 39px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+    border-radius: 46px;
+    width: 92px;
+    height: 38px;
+    border: none;
+}
+
+/* section one */
+.banner-box {
+    width: 599.05px;
+    height: 440px;
+}
+
+.banner {
+    font-size: 4.88rem;
+    font-weight: 900;
+}
+
+.dancing-script-shape {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-size: 5.62rem;
+}
+
+.banner-btn {
+    width: 224px;
+    height: 54px;
+    font-size: 1.12rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    color: aliceblue;
+    margin-left: 1rem;
+    margin-top: 1.3rem;
+}
+
+#download-btn {
+    background-color: rgb(9, 8, 8);
+    border: 1px solid aliceblue;
+}
+
+.banner-image-box{
+    width: 349px;
+    height: 580px;
+    margin-left: 140px;
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.btn-500{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-left: 235px;
+    margin-top: 134px;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+.btn-500-size{
+    font-size: 40px;
+    font-weight: 900;
+    color: aliceblue;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-top: 25px;
+    
+}
+.btn-350{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 187px;
+    margin-left: -97px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+}
+.btn-350-size{
+    font-size: 24px;
+    font-weight: 900;
+    color: aliceblue;
+}
+#btn-350-letters{
+    margin-left: 10px;
+}
+/* section two */
+.habit {
+    text-align: center;
+}
+
+.change-habits {
+    padding-bottom: 5rem;
+
+}
+.gym-images {
+    justify-content: space-between;
+}
+
+.gym-img {
+    border-radius: 50%;
+}
+.gym-title{
+    font-weight: 600;
+    font-size: 1.13rem;
+}
+
+/* section three */
+.run-section {
+    justify-content: space-between;
+    border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+    height: 400px;
+}
+.run{
+    padding-left: 54px;
+}
+.run-img-box{
+    margin-top: 2.2rem;
+    margin-right: 2.2rem;
+}
+.run-btn{
+    border: none;
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    color: aliceblue;
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.run-img {
+    border-radius: 18px;
+    width: 396px;
+    height: 330px;
+}
+
+/* section four first */
+.bmi-calculator{
+    width: 684px;
+}
+.bmi-calculator-box{
+    display: flex;
+    justify-content: center;
+}
+
+/* section four second */
+.calculator-bg{
+    background-color:rgba(215, 205, 205, 0.1);
+    height: 487px;;
+}
+.calculator{
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.calculate-bmi{
+    max-width: 577px;
+}
+.calculator-title{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+table , td , th{
+    border-collapse: collapse;
+    text-align: left;
+}
+th ,td{
+    border: 1px solid rgba(227, 218, 218, 0.1);
+    padding: 15px;
+}
+th{
+    font-size: 1rem;
+    font-weight: 500;
+}
+td{
+    font-size: 0.87rem;
+    font-weight: 400; 
+    color: rgba(254, 252, 252, 0.329); 
+}
+/* form part */
+.form-start{
+   margin-top: 2rem;
+}
+.form-boxs{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.12rem;
+    margin-top: 1.25rem;
+
+}
+.form-box{
+    width: 282px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 0.1);
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 0.6);
+    padding-left: 1.5rem;
+}
+.form-end{
+    width: 550px;
+}
+.calculate-btn{
+    margin-top: 2rem;
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+/* section five */
+.team{
+    text-align: center;
+}
+.team-img-bg{
+    background-color: rgba(215, 205, 205, 0.1);
+    padding: 1.25rem;
+    border-radius: 18px;
+}
+.team-img-box{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    row-gap: 1.20rem;
+    column-gap: 1rem;
+}
+.team-img{
+    width: 326px;
+    height: 272px;
+    border-radius: 18px;
+    
+}
+
+/* Footer */
+footer{
+    margin-top: 100px;
+    background-color: rgba(215, 205, 205, 0.1);
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.footer {
+    justify-content: space-between;
+}
+
+hr{
+   border-color: rgba(255, 255, 255, 0.5); 
+}
+.fitness-box{
+    width: 443px;
+}
+.footer-fitness{
+    font-size: 4.37rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    font-style: italic;
+}
+.get-started{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-p{
+    font-size: 1.43rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-end {
+    text-align: center;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
+}
