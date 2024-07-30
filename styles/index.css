@@ -278,6 +278,7 @@ td{
     justify-content: space-between;
     gap: 1.12rem;
     margin-top: 1.25rem;
+    color:rgba(255, 255, 255, 0.6);
 
 }
 .form-box{
@@ -290,8 +291,14 @@ td{
     color:rgba(255, 255, 255, 0.6);
     padding-left: 1.5rem;
 }
+.select{
+    /* color:rgba(255, 255, 255, 0.6); */
+    color: brown;
+    font-
+}
+
 .form-end{
-    width: 550px;
+    width: 577px;
 }
 .calculate-btn{
     margin-top: 2rem;
