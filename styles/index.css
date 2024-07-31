@@ -1,4 +1,4 @@
-body{
+body {
     /* margin: 0 auto;
     max-width: 1060px; */
     background-color: rgb(9, 8, 8);
@@ -15,16 +15,19 @@ body{
 }
 
 /* common styles */
-.margin{
+.margin {
     margin: 0 auto;
     max-width: 1060px;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 100px;
 }
+
 .display-flex {
     display: flex;
 }
+
 .color-orng {
     background-color: rgb(230, 83, 60);
 }
@@ -34,7 +37,8 @@ body{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-.title{
+
+.title {
     font-size: 3rem;
     font-weight: 900;
 }
@@ -116,18 +120,20 @@ body{
     border: 1px solid aliceblue;
 }
 
-.banner-image-box{
+.banner-image-box {
     width: 349px;
     height: 580px;
     margin-left: 140px;
     position: relative;
 }
-.banner-img{
+
+.banner-img {
     width: 100%;
     position: absolute;
     z-index: -1;
 }
-.btn-500{
+
+.btn-500 {
     width: 193px;
     height: 98px;
     border-radius: 12px;
@@ -140,20 +146,23 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
 }
-.btn-500-size{
+
+.btn-500-size {
     font-size: 40px;
     font-weight: 900;
     color: aliceblue;
 }
-.circle{
+
+.circle {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
     margin-top: 25px;
-    
+
 }
-.btn-350{
+
+.btn-350 {
     width: 193px;
     height: 98px;
     border-radius: 12px;
@@ -167,14 +176,17 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
 }
-.btn-350-size{
+
+.btn-350-size {
     font-size: 24px;
     font-weight: 900;
     color: aliceblue;
 }
-#btn-350-letters{
+
+#btn-350-letters {
     margin-left: 10px;
 }
+
 /* section two */
 .habit {
     text-align: center;
@@ -184,6 +196,7 @@ body{
     padding-bottom: 5rem;
 
 }
+
 .gym-images {
     justify-content: space-between;
 }
@@ -191,7 +204,8 @@ body{
 .gym-img {
     border-radius: 50%;
 }
-.gym-title{
+
+.gym-title {
     font-weight: 600;
     font-size: 1.13rem;
 }
@@ -203,14 +217,17 @@ body{
     background-color: rgb(34, 34, 34);
     height: 400px;
 }
-.run{
+
+.run {
     padding-left: 54px;
 }
-.run-img-box{
+
+.run-img-box {
     margin-top: 2.2rem;
     margin-right: 2.2rem;
 }
-.run-btn{
+
+.run-btn {
     border: none;
     border-radius: 42px;
     width: 224px;
@@ -228,92 +245,110 @@ body{
 }
 
 /* section four first */
-.bmi-calculator{
+.bmi-calculator {
     width: 684px;
 }
-.bmi-calculator-box{
+
+.bmi-calculator-box {
     display: flex;
     justify-content: center;
 }
 
 /* section four second */
-.calculator-bg{
-    background-color:rgba(215, 205, 205, 0.1);
-    height: 487px;;
+.calculator-bg {
+    background-color: rgba(215, 205, 205, 0.1);
+    height: 487px;
+    ;
 }
-.calculator{
+
+.calculator {
     justify-content: space-between;
     padding-top: 10px;
 }
-.calculate-bmi{
+
+.calculate-bmi {
     max-width: 577px;
 }
-.calculator-title{
+
+.calculator-title {
     font-size: 1.75rem;
     font-weight: 900;
 }
-table , td , th{
+
+table,
+td,
+th {
     border-collapse: collapse;
     text-align: left;
 }
-th ,td{
+
+th,
+td {
     border: 1px solid rgba(227, 218, 218, 0.1);
     padding: 15px;
 }
-th{
+
+th {
     font-size: 1rem;
     font-weight: 500;
 }
-td{
+
+td {
     font-size: 0.87rem;
-    font-weight: 400; 
-    color: rgba(254, 252, 252, 0.329); 
+    font-weight: 400;
+    color: rgba(254, 252, 252, 0.329);
 }
+
 /* form part */
-.form-start{
-   margin-top: 2rem;
+.form-start {
+    margin-top: 2rem;
 }
-.form-boxs{
+
+.form-boxs {
     display: flex;
     justify-content: space-between;
     gap: 1.12rem;
     margin-top: 1.25rem;
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 
 }
-.form-box{
+
+.form-box {
     width: 282px;
     height: 48px;
     border: none;
     border-radius: 8px;
-    background-color:rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     font-size: 1rem;
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
     padding-left: 1.5rem;
 }
-.select-div{
+
+.select-div {
     width: 282px;
     height: 48px;
     border: none;
     border-radius: 8px;
-    color:rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
-.select{
+
+.select {
     width: 282px;
     height: 48px;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
-    background-color:rgba(255, 255, 255, 0.1);
-    color:rgba(167, 164, 164, 0.6);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(167, 164, 164, 0.6);
     padding-left: 1.5rem;
     cursor: pointer;
 }
 
-.form-end{
+.form-end {
     width: 577px;
 }
-.calculate-btn{
+
+.calculate-btn {
     margin-top: 2rem;
     width: 224px;
     height: 54px;
@@ -324,57 +359,89 @@ td{
     font-weight: 600;
     color: aliceblue;
 }
+
 /* section five */
-.team{
+.team {
     text-align: center;
 }
-.team-img-bg{
+
+.team-img-bg {
     background-color: rgba(215, 205, 205, 0.1);
     padding: 1.25rem;
     border-radius: 18px;
 }
-.team-img-box{
+
+.row-1 , .row-2 {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
-    row-gap: 1.20rem;
-    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+
 }
-.team-img{
-    width: 326px;
+.row-1{
+    padding-bottom: 1.2rem;
+}
+
+.team-img {
+    width: 100%;
     height: 272px;
     border-radius: 18px;
-    
+    filter: brightness(85%);
+
+}
+
+.team-position{
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    top:70%;
+    left: 9%;
+    font-weight: 500;
+}
+
+.trainer{
+    position: absolute;
+    top: 83%;
+    left: 9%;
+    font-size: 0.8rem;
+    color:rgba(253, 248, 248, 0.406);
 }
 
 /* Footer */
-footer{
+footer {
     margin-top: 100px;
     background-color: rgba(215, 205, 205, 0.1);
     left: 0;
     right: 0;
     width: 100%;
 }
+
 .footer {
     justify-content: space-between;
 }
 
-hr{
-   border-color: rgba(255, 255, 255, 0.5); 
+hr {
+    border-color: rgba(255, 255, 255, 0.5);
 }
-.fitness-box{
+
+.fitness-box {
     width: 443px;
 }
-.footer-fitness{
+
+.footer-fitness {
     font-size: 4.37rem;
     font-weight: 800;
     color: rgb(230, 83, 60);
     font-style: italic;
 }
-.get-started{
+
+.get-started {
     font-size: 2rem;
     font-weight: 700;
 }
-.footer-p{
+
+.footer-p {
     font-size: 1.43rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
