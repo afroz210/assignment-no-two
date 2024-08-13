@@ -36,11 +36,16 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+    line-height: 24px;
+    letter-spacing: 0.5px;
 }
 
 .title {
     font-size: 3rem;
     font-weight: 900;
+}
+.bg{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(220, 218, 218, 0) 100%);
 }
 
 /* nav styles */
@@ -70,7 +75,6 @@ body {
 
 .list-box {
     width: 465px;
-    height: 46px;
     padding-left: 1.3rem;
     border: 1px solid rgba(139, 138, 138, 0.1);
     border-radius: 39px;
@@ -86,33 +90,38 @@ body {
 }
 
 /* section one */
-.banner-box {
-    width: 599.05px;
-    height: 440px;
+.section-1{
+    justify-content: space-between;
 }
 
 .banner {
     font-size: 4.88rem;
     font-weight: 900;
+    position: relative;
 }
 
-.dancing-script-shape {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
+.miama-font{
+    font-family: 'Miama', sans-serif;
+    font-size: 4.66rem;
     font-style: italic;
-    font-size: 5.62rem;
+    position: absolute;
+    margin-top: -51px;
+}
+
+.stay-font{
+   margin-left: 245px; 
 }
 
 .banner-btn {
     width: 224px;
-    height: 54px;
+    padding: 1rem;
     font-size: 1.12rem;
-    font-weight: 600;
     border-radius: 42px;
     border: none;
     color: aliceblue;
     margin-left: 1rem;
     margin-top: 1.3rem;
+    cursor: pointer;
 }
 
 #download-btn {
@@ -121,30 +130,34 @@ body {
 }
 
 .banner-image-box {
-    width: 349px;
-    height: 580px;
     margin-left: 140px;
     position: relative;
 }
 
 .banner-img {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
+    height: 100%;
+    position: relative;
 }
 
 .btn-500 {
     width: 193px;
-    height: 98px;
     border-radius: 12px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
     margin-left: 235px;
-    margin-top: 134px;
+    margin-top: -414px;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
+    position: absolute;
+    cursor: pointer;
+}
+
+.btn-p-500 ,
+.btn-p-300{
+    font-size: 13px;
+    margin-left: 34px;
 }
 
 .btn-500-size {
@@ -158,23 +171,24 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: rgb(230, 83, 60);
-    margin-top: 25px;
+    margin-top: 18px;
 
 }
 
 .btn-350 {
     width: 193px;
-    height: 98px;
     border-radius: 12px;
     border: none;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-top: 187px;
+    margin-top: -167px;
     margin-left: -97px;
     justify-content: center;
-    text-align: center;
-    padding-top: 10px;
+    text-align: left;
+    padding-top: 5px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
+    position: absolute;
+    cursor: pointer;
 }
 
 .btn-350-size {
@@ -451,4 +465,66 @@ hr {
     text-align: center;
     font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.5);
+}
+
+.bar-icon{
+    display: none;
+}
+
+/* Responsive media */
+
+@media screen and (max-width:576px) {
+    /* nav and section 1 */
+    .bar-icon{
+        display: block;
+        font-size: 1.2rem;
+    }
+    .list-box{
+        display: none;
+    }
+    .section-1{
+        flex-direction: column;
+    }
+    .banner{
+        font-size: 36px;
+    }
+    .miama-font{
+    font-size: 34px;
+    margin-top: -23px;
+    }
+    .stay-font{
+        margin-left: 120px; 
+    }
+    .banner-img{
+       margin-left: -130px;
+    }
+    .btn-500{
+        width: 146px;
+        border-radius: 9.07px;
+        margin-left: 60px;
+        margin-top: -537px;
+    }
+    .btn-500-size {
+        font-size: 30px;
+    }
+    .btn-p-500{
+       font-size: 9.83px;
+       margin-left: 23px;
+    }
+    .btn-350{
+        width: 156px;
+        border-radius: 9.07px;
+        margin-top: -324px;
+        margin-left: -122px;
+    }
+    .btn-350-size{
+        font-size: 18.14px;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+        margin-top: 25px;
+    }
+
+
 }
