@@ -44,8 +44,9 @@ body {
     font-size: 3rem;
     font-weight: 900;
 }
-.bg{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(220, 218, 218, 0) 100%);
+
+.bg {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(220, 218, 218, 0) 100%);
 }
 
 /* nav styles */
@@ -90,7 +91,7 @@ body {
 }
 
 /* section one */
-.section-1{
+.section-1 {
     justify-content: space-between;
 }
 
@@ -100,7 +101,7 @@ body {
     position: relative;
 }
 
-.miama-font{
+.miama-font {
     font-family: 'Miama', sans-serif;
     font-size: 4.66rem;
     font-style: italic;
@@ -108,8 +109,8 @@ body {
     margin-top: -51px;
 }
 
-.stay-font{
-   margin-left: 245px; 
+.stay-font {
+    margin-left: 245px;
 }
 
 .banner-btn {
@@ -154,8 +155,8 @@ body {
     cursor: pointer;
 }
 
-.btn-p-500 ,
-.btn-p-300{
+.btn-p-500,
+.btn-p-300 {
     font-size: 13px;
     margin-left: 34px;
 }
@@ -229,7 +230,6 @@ body {
     justify-content: space-between;
     border-radius: 18px;
     background-color: rgb(34, 34, 34);
-    height: 400px;
 }
 
 .run {
@@ -237,8 +237,7 @@ body {
 }
 
 .run-img-box {
-    margin-top: 2.2rem;
-    margin-right: 2.2rem;
+    margin: 20px;
 }
 
 .run-btn {
@@ -254,14 +253,11 @@ body {
 
 .run-img {
     border-radius: 18px;
-    width: 396px;
-    height: 330px;
+    height: 100%;
+    width: 100%;
 }
 
 /* section four first */
-.bmi-calculator {
-    width: 684px;
-}
 
 .bmi-calculator-box {
     display: flex;
@@ -271,17 +267,16 @@ body {
 /* section four second */
 .calculator-bg {
     background-color: rgba(215, 205, 205, 0.1);
-    height: 487px;
-    ;
+    padding-bottom: 20px;
 }
 
 .calculator {
     justify-content: space-between;
-    padding-top: 10px;
+
 }
 
 .calculate-bmi {
-    max-width: 577px;
+    margin-left: 203px;
 }
 
 .calculator-title {
@@ -299,7 +294,10 @@ th {
 th,
 td {
     border: 1px solid rgba(227, 218, 218, 0.1);
-    padding: 15px;
+    padding-left: 1.2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    width: 12vw;
 }
 
 th {
@@ -311,6 +309,7 @@ td {
     font-size: 0.87rem;
     font-weight: 400;
     color: rgba(254, 252, 252, 0.329);
+
 }
 
 /* form part */
@@ -328,7 +327,7 @@ td {
 }
 
 .form-box {
-    width: 282px;
+    width: 50%;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -339,7 +338,7 @@ td {
 }
 
 .select-div {
-    width: 282px;
+    width: 53%;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -347,7 +346,7 @@ td {
 }
 
 .select {
-    width: 282px;
+    width: 100%;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -356,10 +355,6 @@ td {
     color: rgba(167, 164, 164, 0.6);
     padding-left: 1.5rem;
     cursor: pointer;
-}
-
-.form-end {
-    width: 577px;
 }
 
 .calculate-btn {
@@ -385,13 +380,15 @@ td {
     border-radius: 18px;
 }
 
-.row-1 , .row-2 {
+.row-1,
+.row-2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.2rem;
 
 }
-.row-1{
+
+.row-1 {
     padding-bottom: 1.2rem;
 }
 
@@ -403,23 +400,23 @@ td {
 
 }
 
-.team-position{
+.team-position {
     position: relative;
 }
 
-.name{
+.name {
     position: absolute;
-    top:70%;
+    top: 70%;
     left: 9%;
     font-weight: 500;
 }
 
-.trainer{
+.trainer {
     position: absolute;
     top: 83%;
     left: 9%;
     font-size: 0.8rem;
-    color:rgba(253, 248, 248, 0.406);
+    color: rgba(253, 248, 248, 0.406);
 }
 
 /* Footer */
@@ -429,6 +426,7 @@ footer {
     left: 0;
     right: 0;
     width: 100%;
+    padding: 10px;
 }
 
 .footer {
@@ -440,7 +438,7 @@ hr {
 }
 
 .fitness-box {
-    width: 443px;
+    width: 40%;
 }
 
 .footer-fitness {
@@ -467,64 +465,123 @@ hr {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bar-icon{
+.bar-icon {
     display: none;
 }
 
 /* Responsive media */
 
 @media screen and (max-width:576px) {
+
+    .margin{
+        padding-left:10px;
+    }
+
     /* nav and section 1 */
-    .bar-icon{
+    .bar-icon {
         display: block;
         font-size: 1.2rem;
     }
-    .list-box{
+
+    .list-box {
         display: none;
     }
-    .section-1{
+
+    .section-1,
+    .gym-images,
+    .run-section,
+    .calculator ,
+    .footer {
         flex-direction: column;
     }
-    .banner{
+
+    .banner {
         font-size: 36px;
     }
-    .miama-font{
-    font-size: 34px;
-    margin-top: -23px;
+
+    .miama-font {
+        font-size: 34px;
+        margin-top: -23px;
     }
-    .stay-font{
-        margin-left: 120px; 
+
+    .stay-font {
+        margin-left: 120px;
     }
-    .banner-img{
-       margin-left: -130px;
+
+    .banner-img {
+        margin-left: -130px;
     }
-    .btn-500{
+
+    .banner-btn {
+        width: 168px;
+        border-radius: 40px;
+    }
+
+    .banner-btn-small {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .btn-500 {
         width: 146px;
         border-radius: 9.07px;
         margin-left: 60px;
         margin-top: -537px;
     }
+
     .btn-500-size {
         font-size: 30px;
     }
-    .btn-p-500{
-       font-size: 9.83px;
-       margin-left: 23px;
+
+    .btn-p-500 {
+        font-size: 9.83px;
+        margin-left: 23px;
     }
-    .btn-350{
+
+    .btn-350 {
         width: 156px;
         border-radius: 9.07px;
         margin-top: -324px;
         margin-left: -122px;
     }
-    .btn-350-size{
+
+    .btn-350-size {
         font-size: 18.14px;
     }
-    .circle{
+
+    .circle {
         width: 30px;
         height: 30px;
         margin-top: 25px;
     }
 
+    /* section - 2 */
+    .title {
+        font-size: 2rem;
+    }
 
+    /* section - 4 */
+    .calculate-bmi {
+        margin-left: 0;
+    }
+
+    th,
+    td {
+        width: 50%;
+        padding-right: 10px;
+    }
+
+    .calculator-title {
+        font-size: 18px;
+    }
+
+    /* section - 5 */
+    .row-1 , .row-2{
+        grid-template-columns: 1fr;
+    }
+
+    /* footer */
+    .fitness-box{
+        width: 100%
+    }
 }
